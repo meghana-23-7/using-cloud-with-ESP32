@@ -19,7 +19,7 @@ Hall effect sensor: detects the presence and measures the magnitude of magnetic 
 
 ## Code
 In the first section of the code, we are measuring temperature by including temperature_sens_read() library. Next, we have added the necessary code to connect to Wi-Fi. 
-
+https://github.com/meghana-23-7/using-cloud-with-ESP32/blob/main/sketch_task5.ino
 
 ## Problems faced
 The values are printed on the serial monitor, but there is change on graphs in my channel on Thingspeak. There is some problem, due to which either ESP32 is not sending or the api is not receiving the values. Made some changes in code, this plotted perfectly.
